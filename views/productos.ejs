@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATALOGO DE PRODUCTOS CON MVC</title>
+</head>
+
+<body>
+    <h1>Catalogo de productos</h1>
+
+    /codigo JavaSCRIP==================/
+    <% productos.forEach(producto=>{ %>
+        <div>
+
+            <h3><%= producto.nombre %></h3>
+            <p> Precio : S/ <%= producto.precio %></p>
+
+        </div>
+        <% }) %>
+
+</body>
+
+</html>
